@@ -10865,3 +10865,183 @@ aa.yk/c/<@https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ:540:420
 
 1694714995084	Marionette	INFO	Stopped listening on port 6958
 Dynamically enable window occlusion 1
+1694715549346	geckodriver	INFO	Listening on 127.0.0.1:7497
+1694715551669	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "7498" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Amir\\AppData\\Local\\Temp\\rust_mozprofileGpLYzE"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694715552127	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694715552217	Marionette	INFO	Listening on port 7507
+WebDriver BiDi listening on ws://127.0.0.1:7498
+Read port: 7507
+1694715552470	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:7498/devtools/browser/e865db42-dbc0-4698-a8a8-ba2843eca4bd
+JavaScript warning: https://play.typeracer.com/, line 162: unreachable code after return statement
+JavaScript warning: https://play.typeracer.com/, line 161: unreachable code after return statement
+JavaScript warning: https://play.typeracer.com/ line 9 > injectedScript, line 161: unreachable code after return statement
+JavaScript warning: https://play.typeracer.com/ line 9 > injectedScript, line 162: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://cdn-ima.33across.com/ima.js, line 2: Error: _33AcrossIdMappingsProvider: Ajax: Status code 0
+1694715643140	Marionette	INFO	Stopped listening on port 7507
+Dynamically enable window occlusion 1
+1694715647069	geckodriver	INFO	Listening on 127.0.0.1:7723
+1694715649431	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "7724" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Amir\\AppData\\Local\\Temp\\rust_mozprofileTirIKE"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694715649978	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694715650071	Marionette	INFO	Listening on port 7733
+WebDriver BiDi listening on ws://127.0.0.1:7724
+Read port: 7733
+1694715650318	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:7724/devtools/browser/6e44f4d1-6a17-446b-9827-0db8b1afd9f8
+JavaScript warning: https://play.typeracer.com/, line 162: unreachable code after return statement
+JavaScript warning: https://play.typeracer.com/, line 161: unreachable code after return statement
+JavaScript warning: https://play.typeracer.com/ line 9 > injectedScript, line 161: unreachable code after return statement
+JavaScript warning: https://play.typeracer.com/ line 9 > injectedScript, line 162: unreachable code after return statement
+JavaScript warning: https://uyepgcp8nqjcx34yp.ay.delivery/ivt/uyEPGcP8NqjcX34YP/ivt.min.js, line 10: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://cdn-ima.33across.com/ima.js, line 2: Error: _33AcrossIdMappingsProvider: Ajax: Status code 0
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: DownloadError: Could not download https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/intermediates/e598453a-286a-4210-bd2d-a634aa6389bd.pem
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: DownloadError: Could not download https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/intermediates/119f868d-4224-48fa-aca4-4e950d595c12.pem
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ, line 175: Script terminated by timeout at:
+l@https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ:175:17
+Cz@https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ:473:134
+Dz/<@https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ:473:111
+
+1694715717555	Marionette	INFO	Stopped listening on port 7733
+Dynamically enable window occlusion 1
+1694715720434	geckodriver	INFO	Listening on 127.0.0.1:7904
+1694715722820	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "7905" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Amir\\AppData\\Local\\Temp\\rust_mozprofile4vMb5y"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694715723243	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694715723335	Marionette	INFO	Listening on port 7914
+WebDriver BiDi listening on ws://127.0.0.1:7905
+Read port: 7914
+1694715723579	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:7905/devtools/browser/5059d1d7-f126-4bbd-83b4-44705a710833
+JavaScript warning: https://play.typeracer.com/, line 162: unreachable code after return statement
+JavaScript warning: https://play.typeracer.com/, line 161: unreachable code after return statement
+JavaScript warning: https://play.typeracer.com/ line 9 > injectedScript, line 161: unreachable code after return statement
+JavaScript warning: https://play.typeracer.com/ line 9 > injectedScript, line 162: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://cdn-ima.33across.com/ima.js, line 2: TypeError: t is undefined
+JavaScript error: https://cdn-ima.33across.com/ima.js, line 2: Error: _33AcrossIdMappingsProvider: Ajax: Status code 0
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://play.typeracer.com."
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:;'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 703"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:703:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:556:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:452:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:416:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2167:33
+addAllSources@resource://devtools/server/actors/thread.js:1492:14
+watch@resource://devtools/server/actors/resources/sources.js:78:17
+watchResources@resource://devtools/server/actors/resources/index.js:322:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/base-target-actor.js:41:23
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:527:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:436:21
+Line: 703, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 703: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:;'
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 593))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://play.typeracer.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://play.typeracer.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://play.typeracer.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://play.typeracer.com."
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+onsole.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694715957695	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694715957795	Marionette	INFO	Listening on port 8183
+WebDriver BiDi listening on ws://127.0.0.1:8174
+Read port: 8183
+1694715958080	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:8174/devtools/browser/7b787981-a08b-4a7f-8649-021d4df08e5d
+JavaScript warning: https://play.typeracer.com/, line 162: unreachable code after return statement
+JavaScript warning: https://play.typeracer.com/, line 161: unreachable code after return statement
+JavaScript warning: https://play.typeracer.com/ line 9 > injectedScript, line 161: unreachable code after return statement
+JavaScript warning: https://play.typeracer.com/ line 9 > injectedScript, line 162: unreachable code after return statement
+JavaScript warning: https://uyepgcp8nqjcx34yp.ay.delivery/ivt/uyEPGcP8NqjcX34YP/ivt.min.js, line 10: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://cdn-ima.33across.com/ima.js, line 2: Error: _33AcrossIdMappingsProvider: Ajax: Status code 0
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ, line 175: Script terminated by timeout at:
+l@https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ:175:17
+Cz@https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ:473:134
+Dz/<@https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ:473:111
+
+1694716031352	Marionette	INFO	Stopped listening on port 8183
+Dynamically enable window occlusion 1
+1694716036082	geckodriver	INFO	Listening on 127.0.0.1:8357
+1694716038438	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "8358" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Amir\\AppData\\Local\\Temp\\rust_mozprofilerjsWGk"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694716038849	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694716038941	Marionette	INFO	Listening on port 8367
+Read port: 8367
+WebDriver BiDi listening on ws://127.0.0.1:8358
+1694716039006	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:8358/devtools/browser/7dde4533-b8e3-4493-8bff-dc83ea9e9961
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 759))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 411))
+JavaScript warning: https://play.typeracer.com/, line 162: unreachable code after return statement
+JavaScript warning: https://play.typeracer.com/, line 161: unreachable code after return statement
+JavaScript warning: https://play.typeracer.com/ line 9 > injectedScript, line 161: unreachable code after return statement
+JavaScript warning: https://play.typeracer.com/ line 9 > injectedScript, line 162: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://cdn-ima.33across.com/ima.js, line 2: Error: _33AcrossIdMappingsProvider: Ajax: Status code 0
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ, line 175: Script terminated by timeout at:
+l@https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ:175:17
+Cz@https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ:473:134
+Dz/<@https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ:473:111
+
+1694716254699	Marionette	INFO	Stopped listening on port 8367
+Dynamically enable window occlusion 1
+rn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694716099776	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694716099924	Marionette	INFO	Listening on port 8550
+WebDriver BiDi listening on ws://127.0.0.1:8540
+Read port: 8550
+1694716100358	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:8540/devtools/browser/906b3659-44cb-4aa3-b983-2a997b529c4c
+JavaScript warning: https://play.typeracer.com/, line 162: unreachable code after return statement
+JavaScript warning: https://play.typeracer.com/, line 161: unreachable code after return statement
+JavaScript warning: https://play.typeracer.com/ line 9 > injectedScript, line 161: unreachable code after return statement
+JavaScript warning: https://play.typeracer.com/ line 9 > injectedScript, line 162: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://cdn-ima.33across.com/ima.js, line 2: Error: _33AcrossIdMappingsProvider: Ajax: Status code 0
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: DownloadError: Could not download https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/intermediates/89734696-672f-4546-8ced-8c9db56c1389.pem
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ, line 175: Script terminated by timeout at:
+l@https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ:175:17
+Cz@https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ:473:134
+Dz/<@https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ:473:111
+
+1694716250336	Marionette	INFO	Stopped listening on port 8550
+Dynamically enable window occlusion 1
