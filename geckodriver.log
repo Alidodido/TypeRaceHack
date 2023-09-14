@@ -10552,3 +10552,316 @@ Read port: 4333
 DevTools listening on ws://127.0.0.1:4321/devtools/browser/7634df65-d526-479d-aea1-570029f48fa2
 1689686161700	Marionette	INFO	Stopped listening on port 4333
 Dynamically enable window occlusion 1
+1694711860020	geckodriver	INFO	Listening on 127.0.0.1:2914
+1694711862453	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "2915" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Amir\\AppData\\Local\\Temp\\rust_mozprofileAfmy3J"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694711862873	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694711862963	Marionette	INFO	Listening on port 2924
+WebDriver BiDi listening on ws://127.0.0.1:2915
+Read port: 2924
+1694711863211	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:2915/devtools/browser/20855143-9aee-4c30-8e7d-2a8f7f81d367
+JavaScript warning: https://play.typeracer.com/, line 162: unreachable code after return statement
+JavaScript warning: https://play.typeracer.com/, line 161: unreachable code after return statement
+JavaScript warning: https://play.typeracer.com/ line 9 > injectedScript, line 161: unreachable code after return statement
+JavaScript warning: https://play.typeracer.com/ line 9 > injectedScript, line 162: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://cdn-ima.33across.com/ima.js, line 2: Error: _33AcrossIdMappingsProvider: Ajax: Status code 0
+[Child 3248, MediaDecoderStateMachine #1] WARNING: 25b45223de0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:321
+JavaScript error: https://cdn-ima.33across.com/ima.js, line 2: Error: _33AcrossIdMappingsProvider: Ajax: Status code 0
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:;'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 703"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:703:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:556:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:452:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:416:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2167:33
+addAllSources@resource://devtools/server/actors/thread.js:1492:14
+watch@resource://devtools/server/actors/resources/sources.js:78:17
+watchResources@resource://devtools/server/actors/resources/index.js:322:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/base-target-actor.js:41:23
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:527:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:436:21
+Line: 703, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 703: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:;'
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 438: TypeError: channel is null
+JavaScript error: resource://devtools/server/actors/utils/sources-manager.js, line 438: TypeError: channel is null
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.warn: "Listener for event 'frame' did not return a promise."
+console.error: "Error when attaching target:" (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967400/thread1, type isAttached failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\nattachThread@resource://devtools/client/fronts/targets/target-mixin.js:447:49\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Listener for event 'frame' did not return a promise."
+console.error: "Error when attaching target:" (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967401/thread1, type isAttached failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\nattachThread@resource://devtools/client/fronts/targets/target-mixin.js:447:49\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Listener for event 'frame' did not return a promise."
+console.error: (new Error("Unexpected packet server0.conn0.windowGlobal4294967401/thread1, {\"value\":true,\"from\":\"server0.conn0.windowGlobal4294967401/thread1\"}", "resource://devtools/shared/protocol/Front.js", 362))
+Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: Error: Unexpected packet server0.conn0.windowGlobal4294967401/thread1, {"value":true,"from":"server0.conn0.windowGlobal4294967401/thread1"}
+Stack: onPacket@resource://devtools/shared/protocol/Front.js:362:24
+onPacket@resource://devtools/client/devtools-client.js:471:13
+send/<@resource://devtools/shared/transport/local-transport.js:67:25
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+exports.makeInfallible/<@resource://devtools/shared/ThreadSafeDevToolsUtils.js:103:22
+Line: 362, column: 24
+console.error: (new Error("Unexpected packet server0.conn0.windowGlobal4294967401/thread1, {\"value\":true,\"from\":\"server0.conn0.windowGlobal4294967401/thread1\"}", "resource://devtools/shared/protocol/Front.js", 362))
+console.warn: "Listener for event 'frame' did not return a promise."
+console.error: "Error when attaching target:" (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967403/thread1, type isAttached failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\nattachThread@resource://devtools/client/fronts/targets/target-mixin.js:447:49\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.error: "Error when attaching target:" (new Error("Connection closed, pending request to server0.conn0.windowGlobal4294967413/thread1, type isAttached failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:300:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:47:19\nattachThread@resource://devtools/client/fronts/targets/target-mixin.js:447:49\n", "resource://devtools/shared/protocol/Front.js", 106))
+console.warn: "Listener for event 'frame' did not return a promise."
+1694711994921	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: "Listener for event 'frame' did not return a promise."
+1694712058553	geckodriver	INFO	Listening on 127.0.0.1:3398
+1694712061023	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "3399" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Amir\\AppData\\Local\\Temp\\rust_mozprofilekWNQwF"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694712061421	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694712061513	Marionette	INFO	Listening on port 3409
+WebDriver BiDi listening on ws://127.0.0.1:3399
+Read port: 3409
+1694712061687	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:3399/devtools/browser/6e39828f-4726-4798-b962-521fcb13c5fd
+JavaScript warning: https://play.typeracer.com/, line 162: unreachable code after return statement
+JavaScript warning: https://play.typeracer.com/, line 161: unreachable code after return statement
+JavaScript warning: https://play.typeracer.com/ line 9 > injectedScript, line 161: unreachable code after return statement
+JavaScript warning: https://play.typeracer.com/ line 9 > injectedScript, line 162: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://cdn-ima.33across.com/ima.js, line 2: Error: _33AcrossIdMappingsProvider: Ajax: Status code 0
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ, line 175: Script terminated by timeout at:
+l@https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ:175:17
+Cz@https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ:473:134
+Dz/<@https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ:473:111
+
+1694712440922	Marionette	INFO	Stopped listening on port 3409
+Dynamically enable window occlusion 1
+rn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694712244392	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694712244483	Marionette	INFO	Listening on port 3983
+Read port: 3983
+WebDriver BiDi listening on ws://127.0.0.1:3974
+1694712244550	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:3974/devtools/browser/a41132f6-c176-45f0-8c5e-567f8d27b0b8
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 759))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 411))
+JavaScript warning: https://play.typeracer.com/, line 162: unreachable code after return statement
+JavaScript warning: https://play.typeracer.com/, line 161: unreachable code after return statement
+JavaScript warning: https://play.typeracer.com/ line 9 > injectedScript, line 161: unreachable code after return statement
+JavaScript warning: https://play.typeracer.com/ line 9 > injectedScript, line 162: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://cdn-ima.33across.com/ima.js, line 2: Error: _33AcrossIdMappingsProvider: Ajax: Status code 0
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 759))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 411))
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:;'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 703"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:703:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:556:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:452:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:416:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2167:33
+addAllSources@resource://devtools/server/actors/thread.js:1492:14
+watch@resource://devtools/server/actors/resources/sources.js:78:17
+watchResources@resource://devtools/server/actors/resources/index.js:322:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/base-target-actor.js:41:23
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:527:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:436:21
+Line: 703, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 703: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:;'
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "node is null"
+console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 524))
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.windowGlobal4294967298/pagestyle26 (resource://devtools/server/actors/page-style.js:524:5)", "resource://devtools/shared/protocol/Front.js", 383))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://play.typeracer.com."
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1694715028008	Marionette	INFO	Stopped listening on port 3983
+Dynamically enable window occlusion 1
+ after return statement
+JavaScript warning: https://play.typeracer.com/, line 161: unreachable code after return statement
+JavaScript warning: https://play.typeracer.com/ line 9 > injectedScript, line 161: unreachable code after return statement
+JavaScript warning: https://play.typeracer.com/ line 9 > injectedScript, line 162: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://cdn-ima.33across.com/ima.js, line 2: Error: _33AcrossIdMappingsProvider: Ajax: Status code 0
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: DownloadError: Could not download https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/intermediates/43740f29-584f-43b6-9482-c3c24513466d.pem
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://play.typeracer.com."
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:;'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 703"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:703:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:556:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:452:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:416:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2167:33
+addAllSources@resource://devtools/server/actors/thread.js:1492:14
+watch@resource://devtools/server/actors/resources/sources.js:78:17
+watchResources@resource://devtools/server/actors/resources/index.js:322:19
+addSessionDataEntry@resource://devtools/server/actors/targets/session-data-processors/resources.js:11:21
+addSessionDataEntry@resource://devtools/server/actors/targets/base-target-actor.js:41:23
+_addSessionDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:527:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.sys.mjs:436:21
+Line: 703, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 703: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:;'
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://play.typeracer.com."
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://play.typeracer.com."
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+NetworkHelper.parseSecurityInfo threw an exception: Security state 0 has no known STATE_IS_* flags.
+console.error: "Security state 0 has no known STATE_IS_* flags."
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 573: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1694715028017	Marionette	INFO	Stopped listening on port 4296
+Dynamically enable window occlusion 1
+iled to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 411))
+JavaScript warning: https://play.typeracer.com/, line 162: unreachable code after return statement
+JavaScript warning: https://play.typeracer.com/, line 161: unreachable code after return statement
+JavaScript warning: https://play.typeracer.com/ line 9 > injectedScript, line 161: unreachable code after return statement
+JavaScript warning: https://play.typeracer.com/ line 9 > injectedScript, line 162: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://cdn-ima.33across.com/ima.js, line 2: Error: _33AcrossIdMappingsProvider: Ajax: Status code 0
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: DownloadError: Could not download https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/intermediates/81d5dbda-8b8c-4210-bd29-d0afb44912b8.pem
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ, line 175: Script terminated by timeout at:
+l@https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ:175:17
+Cz@https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ:473:134
+Dz/<@https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ:473:111
+
+1694715027854	Marionette	INFO	Stopped listening on port 5007
+Dynamically enable window occlusion 1
+rn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694713084906	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694713085011	Marionette	INFO	Listening on port 5221
+WebDriver BiDi listening on ws://127.0.0.1:5213
+Read port: 5221
+1694713085275	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:5213/devtools/browser/1e3b27cf-78dd-4491-8a2f-8974da3d0d4c
+JavaScript warning: https://play.typeracer.com/, line 162: unreachable code after return statement
+JavaScript warning: https://play.typeracer.com/, line 161: unreachable code after return statement
+JavaScript warning: https://play.typeracer.com/ line 9 > injectedScript, line 161: unreachable code after return statement
+JavaScript warning: https://play.typeracer.com/ line 9 > injectedScript, line 162: unreachable code after return statement
+JavaScript warning: https://uyepgcp8nqjcx34yp.ay.delivery/ivt/uyEPGcP8NqjcX34YP/ivt.min.js, line 10: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://cdn-ima.33across.com/ima.js, line 2: Error: _33AcrossIdMappingsProvider: Ajax: Status code 0
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ, line 175: Script terminated by timeout at:
+l@https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ:175:17
+Cz@https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ:473:134
+Dz/<@https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ:473:111
+
+1694715027848	Marionette	INFO	Stopped listening on port 5221
+Dynamically enable window occlusion 1
+rn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694714786015	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694714786109	Marionette	INFO	Listening on port 6774
+WebDriver BiDi listening on ws://127.0.0.1:6765
+Read port: 6774
+1694714786360	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:6765/devtools/browser/a5785801-581c-428f-913e-c6fc2e05de58
+JavaScript warning: https://play.typeracer.com/, line 162: unreachable code after return statement
+JavaScript warning: https://play.typeracer.com/, line 161: unreachable code after return statement
+JavaScript warning: https://play.typeracer.com/ line 9 > injectedScript, line 161: unreachable code after return statement
+JavaScript warning: https://play.typeracer.com/ line 9 > injectedScript, line 162: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://cdn-ima.33across.com/ima.js, line 2: Error: _33AcrossIdMappingsProvider: Ajax: Status code 0
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ, line 175: Script terminated by timeout at:
+l@https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ:175:17
+Cz@https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ:473:134
+Dz/<@https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ:473:111
+
+1694715027866	Marionette	INFO	Stopped listening on port 6774
+Dynamically enable window occlusion 1
+rn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1694714884126	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1694714884222	Marionette	INFO	Listening on port 6958
+WebDriver BiDi listening on ws://127.0.0.1:6949
+Read port: 6958
+1694714884474	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:6949/devtools/browser/5fdfc8ab-08b2-472b-9d87-c7032dc5b0cd
+JavaScript warning: https://play.typeracer.com/, line 162: unreachable code after return statement
+JavaScript warning: https://play.typeracer.com/, line 161: unreachable code after return statement
+JavaScript warning: https://play.typeracer.com/ line 9 > injectedScript, line 161: unreachable code after return statement
+JavaScript warning: https://play.typeracer.com/ line 9 > injectedScript, line 162: unreachable code after return statement
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://cdn-ima.33across.com/ima.js, line 2: Error: _33AcrossIdMappingsProvider: Ajax: Status code 0
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: DownloadError: Could not download https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/intermediates/7152e9d3-3a75-4a64-a243-62e63233c96e.pem
+console.error: RemoteSecuritySettings.jsm: 
+  Failed to download attachment: DownloadError: Could not download https://firefox-settings-attachments.cdn.mozilla.net/security-state-staging/intermediates/1d1ab64c-f64a-4919-aace-65e8529d7d55.pem
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ, line 342: Script terminated by timeout at:
+vm@https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ:342:463
+bF@https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ:568:612
+aa.jm@https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ:571:79
+aa.im/k/<@https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ:570:494
+Oj@https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ:307:235
+ak@https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ:310:349
+k@https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ:570:480
+c@https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ:352:169
+un@https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ:353:269
+aa.im@https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ:571:13
+c@https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ:588:943
+fw@https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ:431:298
+ew.prototype.flush@https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ:434:266
+ew.prototype.push@https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ:432:207
+Yv@https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ:429:712
+tF/<@https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ:589:153
+aa.yk/<@https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ:541:126
+aa.yk/c/<@https://www.googletagmanager.com/gtag/js?id=G-MH93WM11JZ:540:420
+
+1694714995084	Marionette	INFO	Stopped listening on port 6958
+Dynamically enable window occlusion 1
